@@ -4,8 +4,50 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Shopping Cart</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <h1> Shopping Cart</h1>
+    <main>
+        <div class="product1">
+            <div class="item1">
+                <img src="Samsung.jpg">
+                <h3>Samsung Galaxy s24 Ultra</h3>
+            </div>
+            <div class="price1">
+                <h4>$2000</h4>
+                <div class="number">
+                    <button class="add">+</button>
+                    <label for="number"></label>
+                    <input type="number" id="number" autocomplete="off">
+                    <button class="subtract">-</button>
+                </div>
+                <h4>$2000</h4>
+                <button class="cancel">x</button>
+            </div>
+        </div>
+        <hr>
+        <div class="product2">
+            <div class="item2">
+                <img src="apple-iphone-15-pro-max.jpg">
+                <h3>Iphone 15pro max</h3>
+            </div>
+            <div class="price2">
+                <p>$1500</p>
+                <div>
+                    <button class="add">+</button>
+                    <label for="number"></label>
+                    <input type="number" id="number" autocomplete="off">
+                    <button class="subtract">-</button>
+                    <p>$1500</p>
+                    <button class="cancel">x</button>
+                </div>
+            </div>
+        </div>
+    </main>
+    <div class="btn">
+        <button class="close">CLOSE</button>
+        <button class="chectout">CHECKOUT</button>
+    </div>
 </body>
 </html>
